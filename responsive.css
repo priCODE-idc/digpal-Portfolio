@@ -1,0 +1,214 @@
+/* Tablets */
+@media (max-width: 1024px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .computer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container,
+  .com-img {
+    width: 90%;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  nav {
+    padding: 15px 20px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: #000328;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: right 1s ease-in-out;
+  }
+
+  .nav-links li {
+    margin: 1rem 0;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  .profile-text h1 {
+    font-size: 2rem;
+  }
+
+  .profile-image-content {
+    display: none;
+  }
+
+  .profile-text h3 {
+    font-size: 0.8rem;
+  }
+
+  .profile-text button {
+    padding: 6px 24px;
+    font-size: 12px;
+  }
+
+  .profile-text-content,
+  .profile-image-content {
+    width: 100%;
+  }
+
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .profile {
+    background-image: url(img/profile.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-con {
+    width: 90%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .com-img {
+    height: auto;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline-item::before {
+    left: -10px;
+  }
+
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .footer-content {
+    width: 90%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .address {
+    width: 100%;
+  }
+
+  .contactPage {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+  .contactSection {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .projects {
+    display: block;
+  }
+
+  .box.h1 {
+    font-size: 14px;
+  }
+  .services .box {
+    height: auto;
+    padding: 20px;
+    max-width: 76%;
+  }
+  .about .aboutMe {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    gap: 2rem;
+    align-items: center;
+  }
+  .aboutMe .myTextis {
+    max-width: 100%;
+  }
+  .aboutMe .myImgis {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .projectOne {
+    width: 95%;
+  }
+
+  .address {
+    width: 100%;
+  }
+  .contactPage {
+    width: 100%;
+    height: auto;
+  }
+  .info {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-con h1 {
+    font-size: 2rem;
+  }
+
+  .main-con h3 {
+    font-size: 1rem;
+  }
+
+  .timeline {
+    margin-left: 0;
+  }
+
+  .footer-content p,
+  .main-con p {
+    font-size: 0.9rem;
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+  }
+}
