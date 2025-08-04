@@ -295,7 +295,7 @@ hr {
 
 .project {
   background-color: #181818;
-  min-height: 90vh;
+  height: auto;
   padding: 2rem 0;
 }
 
